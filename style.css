@@ -1,0 +1,201 @@
+* {
+  margin:0; padding:0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+p {
+  color: slategrey;
+  font-size: 15px;
+}
+
+p.left {
+  text-align: left; 
+}
+
+p.index{
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 500px; /*width -> max-width*/
+}
+
+ul{
+   list-style: none;
+}
+
+ul li.add_line{
+  
+  border-bottom:1px solid #0e78b9
+}
+
+ul li.bibliotek {
+  /*text-align: left;*/ 
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 3.5em;
+  background: url(images/bibliotek1.png)left 0px top 3px no-repeat;
+  background-size: 100px auto;
+}
+
+ul li.webshop {
+  /*text-align: left;*/
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 3.5em;
+  background: url(images/webshop2.png)left 0px top 3px no-repeat;
+  background-size: 100px auto;
+}
+
+ul li.aka {
+  /*text-align: left;*/
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 3.5em;
+  background: url(images/aka1-2.png)left 0px top 3px no-repeat;
+  background-size: 100px auto;
+}
+
+.thumbnail{
+  display: inline-block;/*Det är viktig*/
+  height: 80px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.thumbnail img{
+  height: 100%;
+}
+
+h1 {
+  color: #0e6aa3;
+  font-size: 25px;
+}
+
+/*
+div {
+  background: #ffffff;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  margin: 0 auto;
+}
+*/
+
+
+.content_portfolio{
+background: #ffffff;
+max-height: 2500px;/*Det saknas i början och det var inte RWD, width -> max-width*/
+max-width: 800px; /*width -> max-width*/
+padding: 20px;
+text-align: center;
+border: 1px solid #cccccc;
+margin: 0 auto;
+}
+.content_other{
+background: #ffffff;
+max-height: 600px;/*Det saknas i början och det var inte RWD */
+max-width: 800px; /*width -> max-width*/
+padding: 20px;
+text-align: center;
+border: 1px solid #cccccc;
+margin: 0 auto;
+}
+
+
+nav{
+  background: #ffffff;
+  height: 25px;
+  max-width: 800px; /*width -> max-width*/
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  margin: 15px auto;
+  font-size: 25px;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav a:link {
+  color: #500585;
+}
+nav a:visited {
+  color:#cf1352; 
+}
+
+nav a:transition{
+  color: 0.3s ;
+}
+nav a:hover {
+  color: #0e78b9;
+}
+nav a:active {
+  color: #e9c80d;
+}
+
+a:link {
+  color: #500585;
+}
+
+
+.btn-square {
+  position: relative;
+  display: inline-block;
+  padding: 0.3em 0.5em;
+  text-decoration: none;
+  color: cornsilk;
+  background: #fc891d;
+  border-bottom: solid 2px #bb7a19;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 0 rgb(245, 239, 239),0 2px 2px #c4baba;
+  font-weight: bold;
+}
+
+.wrapper{
+min-height: 100vh;
+position: relative;
+padding-bottom: 110px;
+box-sizing: border-box;
+}
+
+/*
+.contents {
+width: 960px;
+background-color: #eee;
+margin: 70px auto 0;
+}
+.clearfix::after{
+content:"";
+display: block;
+clear: both;
+}
+footer {
+width: 100%;
+height: 60px;
+background-color: #333;
+text-align: center;
+position:fixed ; 
+bottom: 0;
+}
+*/
+
+footer {
+width: 100% ;
+text-align: center;
+padding: 15px ;
+background-color: rgb(177, 138, 10);
+position:absolute ;/*absolute* Om det ska bli absolute kommer det bugg*/
+bottom: 0;
+box-sizing: border-box;
+height: 100;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 15px;
+}
