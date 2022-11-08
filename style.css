@@ -33,6 +33,15 @@ ul li.add_line{
   border-bottom:1px solid #0e78b9
 }
 
+ul li.analys {
+  /*text-align: left;*/ 
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 3.5em;
+  background: url(images/analys1.png)left 0px top 3px no-repeat;
+  background-size: 120px auto;
+}
+
 ul li.bibliotek {
   /*text-align: left;*/ 
   font-size: 18px;
