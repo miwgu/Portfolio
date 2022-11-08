@@ -39,7 +39,16 @@ ul li.analys {
   padding-left: 20px;
   line-height: 3.5em;
   background: url(images/analys1.png)left 0px top 3px no-repeat;
-  background-size: 120px auto;
+  background-size: 128px auto;
+}
+
+ul li.quiz {
+  /*text-align: left;*/ 
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 3.5em;
+  background: url(images/quiz1-1.png)left 0px top 3px no-repeat;
+  background-size: 128px auto;
 }
 
 ul li.bibliotek {
